@@ -10,6 +10,6 @@ It incorporates fixes to allow SSL Websocket proxies.
 
 If you do not want to compile and just drop the module in, you can try the .so
 
-1. cp mod_proxy_wstunnel.soi /usr/lib64/httpd/modules/
+1. cp mod_proxy_wstunnel.so /usr/lib64/httpd/modules/
 2. chmod 755 /usr/lib64/httpd/modules/mod_proxy_wstunnel.so
 3. Add line to /etc/httpd/conf/httpd.conf: LoadModule proxy_wstunnel_module /usr/lib64/httpd/modules/mod_proxy_wstunnel.so
